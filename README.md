@@ -1,17 +1,38 @@
-# bharat_nova
+# BharatNova
 
-A new Flutter project.
+A modern Indian social news feed app built with Flutter — clean architecture, smooth animations, and a native-feel UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Animated splash screen with pulsing rings and staggered logo/text reveal
+- Tab-based feed (Post · Nova · News · Article) with full-width indicator
+- Post cards with image carousel, read-more toggle, and action bar
+- Scroll-aware bottom nav bar (hides on scroll down, reveals on scroll up)
+- Custom floating-action bottom navigation with BN logo item and center FAB
+- Location-aware app bar
+- Shimmer loading skeleton matching the post card layout
+- Infinite scroll with pagination and pull-to-refresh
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture
+
+Clean Architecture with feature-first folder structure.
+
+```text
+lib/
+├── core/
+│   ├── constants/        # AppColors, AppStrings, AppEndpoints
+│   ├── di/               # GetIt service locator
+│   ├── errors/           # Failure types
+│   ├── network/          # Dio API client
+│   ├── router/           # go_router named routes
+│   └── widgets/          # AppBar, BottomNav, ShimmerCard
+│
+└── features/
+    ├── splash/           # Splash screen
+    ├── home/             # Shell page + nav
+    ├── feed/             # Posts feed (BLoC)
+    └── location/         # Device location (BLoC)
