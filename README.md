@@ -14,6 +14,9 @@ A modern Indian social news feed app built with Flutter — clean architecture, 
 - Location-aware app bar
 - Shimmer loading skeleton matching the post card layout
 - Infinite scroll with pagination and pull-to-refresh
+- On app launch, requests:
+  - Location permission
+  - Notification permission
 
 ---
 
