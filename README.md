@@ -36,3 +36,42 @@ lib/
     ├── home/             # Shell page + nav
     ├── feed/             # Posts feed (BLoC)
     └── location/         # Device location (BLoC)
+## Tech Stack
+
+| Layer | Library |
+|---|---|
+| State management | flutter_bloc |
+| Navigation | go_router |
+| Dependency injection | get_it |
+| HTTP | dio |
+| Image caching | cached_network_image |
+| Location | geolocator |
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/<your-username>/bharat_nova.git
+cd bharat_nova
+flutter pub get
+flutter run
+```
+
+---
+
+## Requirements
+
+- Flutter 3.x
+- Dart 3.x
+
+---
+
+## API
+
+Posts are fetched from:
+
+- DummyJSON → https://dummyjson.com/posts
+- Picsum Photos → https://picsum.photos
+
+with dynamically generated images via Picsum Photos.
