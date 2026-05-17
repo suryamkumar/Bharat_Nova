@@ -82,13 +82,13 @@ with dynamically generated images via Picsum Photos.
 
 ### Splash Screen
 
-<img src="screenshots/splash.png" width="250"/>
+<img src="screenshots/splash.png" width="250" align="center"/>
 
 ---
 
 ### Shimmer Loading Screen
 
-<img src="screenshots/shimmer.png" width="250"/>
+<img src="screenshots/shimmer.png" width="250" align="center"/>
 
 ---
 
@@ -96,5 +96,5 @@ with dynamically generated images via Picsum Photos.
 
 | Home Screen 1 | Home Screen 2 (When scrolling down, App bar disappears)|
 |---|---|
-| <img src="screenshots/home.png" width="250"/> | <img src="screenshots/home 1.jpeg" width="250"/> |
+| <img src="screenshots/home.png" width="250" align="center"/> | <img src="screenshots/home 1.jpeg" width="250" align="center"/> |
 
