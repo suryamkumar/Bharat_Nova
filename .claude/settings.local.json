@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\surya\\\\AndroidStudioProjects\\\\bharat_nova\\\\lib\\\\features\\\\feed\\\\presentation\\\\controllers\\\\feed_controller.dart\" -Force)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\surya\\\\AndroidStudioProjects\\\\bharat_nova\\\\lib\\\\features\\\\location\\\\presentation\\\\controllers\\\\location_controller.dart\" -Force)",
+      "Bash(flutter pub *)"
+    ]
+  }
+}
