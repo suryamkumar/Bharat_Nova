@@ -96,5 +96,5 @@ with dynamically generated images via Picsum Photos.
 
 | Home Screen 1 | Home Screen 2 (When scrolling down, App bar disappears)|
 |---|---|
-| <img src="screenshots/home.png" width="250"/> | <img src="screenshots/home 1.png" width="250"/> |
+| <img src="screenshots/home.png" width="250"/> | <img src="screenshots/home 1.jpeg" width="250"/> |
 
