@@ -77,3 +77,24 @@ Posts are fetched from:
 - Picsum Photos → https://picsum.photos
 
 with dynamically generated images via Picsum Photos.
+
+## Screenshots
+
+### Splash Screen
+
+<img src="screenshots/splash.png" width="250"/>
+
+---
+
+### Shimmer Loading Screen
+
+<img src="screenshots/shimmer.png" width="250"/>
+
+---
+
+### Home Screens
+
+| Home Screen 1 | Home Screen 2 |
+|---|---|
+| <img src="screenshots/home_1.png" width="250"/> | <img src="screenshots/home_2.png" width="250"/> |
+
