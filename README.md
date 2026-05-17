@@ -36,6 +36,8 @@ lib/
     ├── home/             # Shell page + nav
     ├── feed/             # Posts feed (BLoC)
     └── location/         # Device location (BLoC)
+
+
 ## Tech Stack
 
 | Layer | Library |
