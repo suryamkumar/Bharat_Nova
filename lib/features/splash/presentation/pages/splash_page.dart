@@ -254,7 +254,6 @@ class _SplashPageState extends State<SplashPage>
   }
 }
 
-// ─── Pulsing rings ───────────────────────────────────────────────────────────
 
 class _PulsingRings extends StatelessWidget {
   final AnimationController controller;
@@ -309,7 +308,6 @@ class _RingsPainter extends CustomPainter {
       old.phases != phases || old.baseRadius != baseRadius;
 }
 
-// ─── Logo widget ─────────────────────────────────────────────────────────────
 
 class _LogoWidget extends StatelessWidget {
   final double size;
@@ -345,7 +343,6 @@ class _LogoWidget extends StatelessWidget {
   }
 }
 
-// ─── Bottom bar ──────────────────────────────────────────────────────────────
 
 class _BottomBar extends StatelessWidget {
   final Animation<double> progress;
